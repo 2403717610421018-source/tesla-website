@@ -1,5 +1,6 @@
- import About from "../components/About"
+import About from "../components/About"
 import Inventions from "../components/Inventions"
+import Timeline from "../components/Timeline"
 
 export default function Home() {
   return (
@@ -23,11 +24,10 @@ export default function Home() {
         </p>
       </main>
 
-      {/* ABOUT */}
+      {/* SECTIONS */}
       <About />
-
-      {/* INVENTIONS */}
       <Inventions />
+      <Timeline />
     </>
   )
 }
