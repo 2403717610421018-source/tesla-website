@@ -1,8 +1,10 @@
-import About from "../components/About"
+ import About from "../components/About"
+import Inventions from "../components/Inventions"
 
 export default function Home() {
   return (
     <>
+      {/* HERO */}
       <main style={{
         height: "100vh",
         background: "black",
@@ -21,7 +23,11 @@ export default function Home() {
         </p>
       </main>
 
+      {/* ABOUT */}
       <About />
+
+      {/* INVENTIONS */}
+      <Inventions />
     </>
   )
 }
